@@ -3,7 +3,13 @@
 import random
 random.seed()
 
-length = int(raw_input("Length? "))
+while True:
+    try:
+        length = int(raw_input("Length? "))
+        break
+    except ValueError:
+        print "Enter a number."
+
 password = ''
 
 for i in range(length):
