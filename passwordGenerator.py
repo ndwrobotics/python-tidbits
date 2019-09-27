@@ -11,7 +11,7 @@ while True:
         print "Enter a number."
 
 password = ''
-characters = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*?"
+characters = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&*?"
 for i in range(length):
 	password += characters[random.randint(0, len(characters)-1)]
 
