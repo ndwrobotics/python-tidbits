@@ -1,5 +1,5 @@
 #Password generator
-#Generates a "random" (as random as a computer can be) sequence of printable ASCII characters from the hardcoded characters string.
+#Generates a "random" (as random as a computer can be) sequence of printable ASCII characters from the hard-coded characters string.
 import random
 random.seed()
 
